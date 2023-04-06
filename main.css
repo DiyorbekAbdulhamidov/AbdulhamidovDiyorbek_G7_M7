@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    user-select: none;
+}
+body{
+    background-color: black;
+}
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 2rem;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.app{
+    display: flex;
+}
+.enter{
+    width: 640px;
+    height: 45px;
+    border: 2px solid blueviolet;
+    border-radius: 7px 0px 0px 7px; 
+    background-color: white;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    color: blueviolet;
+}
+.enter{
+    border: solid 2px blueviolet;
+}
+.addbtn{
+    width: 100px;
+    border: 2px solid blueviolet;  
+    border-radius: 0px 7px 7px 0px; 
+    cursor: pointer;
+    color: blueviolet;
+    transition: all 0.3s ease-in-out;
+}
+.addbtn:hover, .removebtn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.addbtn:active, .removebtn:active{
+    scale: 1.1;
+}
+.removebtn{
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid blueviolet;  
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+    color: blueviolet;
+    font-size: 15px;
+}
+.javob{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jac{
+    display: none;
+}
+.javoblar{
+    width: 740px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.javoblar p {
+    color: white;
+    font-size: 30px;
+}
+
+.pac{
+    text-decoration: line-through;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;  
+    color: white;
+    cursor: pointer;  
+}
+.yashil, .kok, .qizil{
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
+    color: green;
+}
+.kok{
+    color: blue;
+}
+.qizil{
+    color: red;
+}
+.yashil:hover, .kok:hover, .qizil:hover{
+    scale: 1.1;
+}
