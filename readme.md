@@ -1,9 +1,3 @@
-https://js-todo.netlify.app 
-
-
-Imtihonimiz aytganimdek unchalik xam qiyin bolmaydi. Loyihamiz to-do list
-
-
 Vazifa Shartlari :
 
 ✅ To do ni input ga qiymat kiritgandan keyin createBtn ni bosgandan keyin yaratasiz
