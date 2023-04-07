@@ -64,7 +64,6 @@
 //     handleBtns();
 // }
 // init();
-// 
 
 const addBtn = document.querySelector('.addbtn');
 const removeBtn = document.querySelector('.removebtn');
