@@ -134,5 +134,3 @@ function init() {
     handleBtns();
 }
 init();
-
-// 
